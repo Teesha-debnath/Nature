@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 5</title>
+
+    <style>
+          
+        body {
+            background-color: rgb(25, 161, 157);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        header>nav {
+            background-color: rgb(151, 142, 130);
+            position: sticky;
+
+
+        }
+
+        nav ul li {
+            /* display: flex; */
+            list-style: none;
+            padding: 30px 75px 30px 115px;
+            cursor: pointer;
+
+            /* font-family: "Poppins", sans-serif;
+            font-weight: 200;
+            font-style: normal; */
+
+
+        }
+
+        nav>ul {
+            display: flex;
+            /* font-family: "Poppins", sans-serif;
+            font-weight: 200;
+            font-style: normal; */
+        }
+
+        .boxes {
+            border: 2px solid rgb(18, 108, 115);
+            height: 549px;
+            background-color: rgb(18, 108, 115);
+            display: flex;
+            padding: 40px 20px 0px 5px;
+        }
+
+        .card {
+
+            border: 2px solid gray;
+            height: 430px;
+            width: 280px;
+            margin: 15px;
+            border-radius: 20px;
+            background-color: white;
+        }
+
+        .img1 {
+            padding: 4.5px;
+            /* border-radius: 20px; */
+        }
+
+        .img1 img {
+            border-radius: 20px;
+        }
+        .logo img{
+          position: fixed;
+          bottom: 0px;
+          right: 1px;
+          border-radius: 70px;
+          padding: 10px;
+        }
+        
+
+        .capsules {
+            padding: 5px 10px 5px 20px;
+        }
+
+        .capsules span {
+            border: 1px solid gray;
+            width: 50px;
+            height: 30px;
+            border-radius: 20px;
+            font-size: 15px;
+            padding: 1px 5px 1px 5px;
+            color: gray;
+            font-family: "Poppins", sans-serif;
+            font-weight: 200;
+            font-style: normal;
+
+        }
+
+        .content h1 {
+            padding: 5px;
+            font-family: "Poppins", sans-serif;
+            font-weight: 200;
+            font-style: normal;
+        }
+
+        .content p {
+            padding: 0px 10px;
+            color: gray;
+
+        }
+
+        .capsule2 {
+            padding: 30px 106px 10px 104px;
+        }
+
+        .capsule2 span {
+
+            border-radius: 20px;
+            font-size: 12px;
+            padding: 5px 7px 5px 7px;
+            cursor: pointer;
+            background-color: rgb(184, 223, 241);
+            color: rgb(98, 98, 192);
+
+        }
+
+        .capsule2 span:hover {
+            background-color: rgb(158, 193, 224);
+        }
+
+        .bigcapsule {
+            padding: 15px 200px 15px 169px;
+        }
+
+        .bigcapsule p {
+            padding: 15px 10px 15px 30px;
+            border: 1px solid black;
+            border-radius: 20px;
+            width: 900px;
+            text-align: center;
+        }
+
+        .nav2 {
+            background-color: rgb(176, 174, 171);
+            padding: 30px 75px 30px 115px;
+        }
+
+        .nav2 p {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Nature</li>
+                <li>Home</li>
+                <li>Features</li>
+                <li>Services</li>
+                <li>Our Work</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="boxes">
+            <div class="card">
+                <div class="img1">
+                    <img width="270px" height="150px" src="leaves.webp" alt="leaves">
+                </div>
+                <div class="capsules">
+                    <span>Nature</span>
+                    <span>Leaves</span>
+                </div>
+                <div class="content">
+                    <h1>'about leaves</h1>
+                    <p>leaf, in botany, any usually flattened green outgrowth from the stem of a vascular plant. As the
+                        primary sites of photosynthesis, leaves manufacture food for plants, which in turn ultimately
+                        nourish and sustain all land animals. </p>
+                </div>
+                <div class="capsule2">
+                    <span>Read More</span>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img1">
+                    <img width="270px" height="150px" src="trees2.webp" alt="leaves">
+                </div>
+                <div class="capsules">
+                    <span>Nature</span>
+                    <span>Tree</span>
+                </div>
+                <div class="content">
+                    <h1>'about trees</h1>
+                    <p>Trees are tall plants with a single trunk or stem, branches, and leaves that live for many years.
+                        They have a root system that extends below the ground's surface, which anchors the tree and
+                        stores nutrients and water. </p>
+                </div>
+                <div class="capsule2">
+                    <span>Read More</span>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img1">
+                    <img width="270px" height="150px" src="flower2.avif" alt="leaves">
+                </div>
+                <div class="capsules">
+                    <span>Nature</span>
+                    <span>Flower</span>
+                </div>
+                <div class="content">
+                    <h1>'about flowers</h1>
+                    <p> flowers attract pollinators to make seeds, helping plants to reproduce and form the next
+                        generation. Flowers also play important roles in ecosystems. Floral nectar, pollen and even
+                        petals are an important food source for insects.</p>
+                </div>
+                <div class="capsule2">
+                    <span>Read More</span>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img1">
+                    <img width="270px" height="150px" src="wave-hero.jpg" alt="leaves">
+                </div>
+                <div class="capsules">
+                    <span>Nature</span>
+                    <span>Waves</span>
+                </div>
+                <div class="content">
+                    <h1>'about waves</h1>
+                    <p>Waves are created by energy passing through water, causing it to move in a circular motion.
+                        However, water does not actually travel in waves. Ocean waves are very important for weather
+                        forecasting and climate modelling.</p>
+                </div>
+                <div class="capsule2">
+                    <span>Read More</span>
+                </div>
+            </div>
+
+        </div>
+        </div>
+
+        <div class="bigcapsule">
+            <p>Thank You for visiting!!</p>
+        </div>
+
+        <div class="logo">
+            <img src ="logo.jpg" alt="logo" width="45px">
+        </div>
+    </main>
+
+    <footer>
+        <div class="nav2">
+            <p>
+                Copyright 2024 by Nature's Global Pvt Ltd.
+            </p>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
